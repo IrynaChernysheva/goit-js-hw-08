@@ -22,7 +22,7 @@ function formEl() {
     } else {
         return;
     }
-    Object.entries(formEl).forEach(([name, value]) => (textInput.elements[name].value = value));
+    Object.entries(inputEl).forEach(([name, value]) => (textInput.elements[name].value = value));
 }
 
 
